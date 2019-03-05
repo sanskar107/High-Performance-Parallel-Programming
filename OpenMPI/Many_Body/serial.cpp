@@ -27,7 +27,6 @@ public:
 	void update_vel_half();
 	void update_pos();
 	void update_vel_full();
-	// void check_collision();
 	void test();
 };
 
@@ -187,8 +186,8 @@ int main()
 		// B[0].test();
 		check_collision(B);
 		for(int i = 0; i < n_balls; i++)
-			cout<<B[i].x<<' '<<B[i].y<<' '<<B[i].z<<endl;
+			cout<<B[i].x<<' '<<B[i].y<<' '<<B[i].z<<' ';
+		cout<<endl;
 	}
-
 
 }
